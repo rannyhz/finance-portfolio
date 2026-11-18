@@ -1,6 +1,6 @@
 # Manufacturing Financial Diagnostic System (client deliverable)
 
-**Built:** March 2026, for a consulting client in Swiss manufacturing · **Currency:** Swiss francs · **Type:** input-ready Excel model
+**Built:** March 2026, for a consulting client in Swiss manufacturing · **Currency:** Swiss francs by default, with a switch for USD, EUR and GBP · **Type:** input-ready Excel model
 
 ![36-month cash projection from the sample inputs](cash_projection_light.png)
 
@@ -27,8 +27,10 @@ They also asked for:
    - capital spending and equipment life
    - debt, interest rate and tax rate
 2. **Statements (36 months).** The model builds a linked income statement, balance sheet and cash flow. The balance sheet balances, and its cash ties to the cash flow statement every month.
-3. **Benchmarks (Parameters sheet).** Target gross margin, EBITDA margin, net margin, current ratio, inventory turnover and debt-to-equity sit on their own sheet, each with a source label, so they can be updated for a specific sub-sector.
-4. **KPI Engine.** Compares month-1 results with each benchmark and labels every indicator **Healthy** or **Critical**.
+3. **Parameters sheet.**
+   - **Benchmarks:** target gross margin, EBITDA margin, net margin, current ratio, inventory turnover and debt-to-equity, each with a source label, so they can be updated for a specific sub-sector.
+   - **Reporting currency:** a dropdown (CHF, USD, EUR or GBP) relabels every amount in the workbook.
+4. **KPI Engine.** Compares month-1 results with all six benchmarks and labels every indicator **Healthy** or **Critical**.
 5. **Dashboard & Insights.** Headline cards, six charts and four automated decision signals:
 
 | Signal | Rule |
