@@ -16,6 +16,7 @@ This repository holds my independent financial models. Each one is built from pu
 | 2 | [Microsoft (MSFT): integrated 3-statement model and DCF](projects/02-microsoft-msft-3-statement-dcf/) | Five years of 10-K history, cloud and AI segment build-ups, debt schedule, DCF alongside P/E and EV/EBITDA comparables | Model · Summary · Dashboard |
 | 3 | [Salesforce (CRM): financial teardown and RPO-anchored forecast](projects/03-salesforce-crm-teardown/) | Product-segment and geographic teardown (FY2021–FY2025), RPO backlog analysis, revenue per employee, FY2026–FY2028 projections | Model · Summary · Dashboard |
 | 4 | [Small-business 36-month forecast template](projects/04-small-business-forecast-template/) | A 3-statement forecast (income statement, balance sheet, cash flow) driven by one input sheet, with a KPI dashboard. Ships as a blank template plus a filled-in example with fictional data | Template · Example |
+| 5 | [Manufacturing financial diagnostic system (client deliverable)](projects/05-manufacturing-financial-diagnostic/) | An input-ready model for a Swiss manufacturing client. It builds 36 months of linked statements, benchmarks the results against updatable targets and raises automated warnings for financing needs, working capital, liquidity and leverage. Includes six dashboard charts | Model · Sample run |
 
 All company figures come from public filings. Prices and market data are as of the date each model was built and are not updated.
 
@@ -35,7 +36,7 @@ All company figures come from public filings. Prices and market data are as of t
 
 ### Independent Financial Modeling Consultant · December 2025 – July 2026
 
-> Client models are confidential and not published. [Project 4](projects/04-small-business-forecast-template/) shows the same approach with fictional data.
+> The client deliverable is published with sample inputs only: [Project 5](projects/05-manufacturing-financial-diagnostic/).
 
 - Built an automated 36-month 3-statement model for a manufacturing client, forecasting EBITDA margin, working capital and cash runway from a single input sheet.
 - Built KPI dashboards for monthly actual-vs-budget variance and liquidity, plus DCF and debt-sizing analyses.
